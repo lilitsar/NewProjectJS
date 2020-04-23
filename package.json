@@ -1,7 +1,7 @@
 {
   "name": "training-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "My First Project on JS",
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack",

@@ -1,6 +1,9 @@
-import alertFun, { obj } from "./App";
+//import alertFun, { obj } from "./App";
+//root.innerHTML = "TEST";
 
-let root = document.getElementById("root");
-root.onclick = alertFun;
+import { add_func} from "./App.js";
 
-root.innerHTML = "TEST";
+let root = document.getElementById('div_id');
+root.onclick = add_func;
+
+
