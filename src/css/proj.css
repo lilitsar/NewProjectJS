@@ -1,0 +1,37 @@
+h1{ 
+    color: lightpink; 
+    font: 30px Verdana;
+    font-weight: bold;
+    -webkit-text-stroke-width: 2.5px; 
+    -webkit-text-stroke-color: black; 
+    text-align: center;
+    } 
+    
+body{
+       background-color: lightblue; 
+    }
+    
+div{
+    text-align: center;
+    border: 3px solid;
+    padding: 20px;  
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    }
+    
+input{
+      border: 2px solid;
+      font:10px verdana;
+      width:70%;
+      height:20px;
+    }
+    
+.add_cl{
+      border: 2px solid;
+      font:10px verdana;
+      font-weight: bold;
+      width:10%;
+      hight:20px;
+    }

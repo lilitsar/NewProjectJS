@@ -3,9 +3,12 @@
 // որի վրա սեխմեկուց պետքա ջնջվի տողը , 
 import { remove_func } from "./remove.js";
 
+import ToDoList from "./ToDoList";
+
+/*
 export function add_func() {
   var input = document.createElement('input');
-  var lineBreak = document.createElement('br');
+  var linebreak = document.createElement('br');
   var cp = document.getElementById('input_id');
   input.value = cp.value;
   //arr.push(input.value); 
@@ -34,3 +37,16 @@ export function add_func() {
 //export const obj = {};
 // export function add_lilit() {
 //   };
+
+*/
+
+
+class App {
+  constructor{
+    const todo = ToDoList();
+    this._box = todo.html;
+  }
+  get html(){
+    return this._box;
+  }
+}
