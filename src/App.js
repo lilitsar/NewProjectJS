@@ -1,14 +1,14 @@
 
 //import { remove_func } from "./remove.js";
 
-import ToDoList from "./ToDoList";
+import ToDoList from "./ToDoList/index.js";
 
 export default class App {
   constructor(){
     const todo = new ToDoList();
-    this._box = todo.html;
+    this.box = todo.html;
   }
   get html(){
-    return this._box;
+    return this.box;
   }
 }
