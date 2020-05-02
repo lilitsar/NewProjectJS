@@ -1,7 +1,7 @@
-.row{
+.Row{
     font-size: large;
     .remove{
-        background-color: red;
+        background-color:red; 
     }
     .edit{
         background-color:green;
